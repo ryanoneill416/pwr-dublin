@@ -28,9 +28,9 @@ header {
     font-size: 1000%;
     color: whitesmoke;
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
-    transform: translateY(-35%);
+    transform: translateY(-25%);
     transform: translateX(-50%);
     border-bottom: 3px solid #c81212;
 }
@@ -51,12 +51,57 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+/* Navigation links */
 
+#menu {
+    font-size: 200%;
+    font-family: Teko, sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#menu li {
+    display: inline-block;
+    margin:  15px 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.animation {
+    display: inline-block;
+    position: relative;
+    /* color: #c81212; */
+}
+
+.animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #c81212;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
 
 /* Page elements */
 
 .container {
-    height: 90vh;
+    height: 80vh;
     width: 100vw;
 }
 
