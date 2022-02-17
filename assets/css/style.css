@@ -34,4 +34,11 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+/* Page element styling */
+
+.container {
+    height: 90vh;
+    width: 100vw;
+}
+
 
