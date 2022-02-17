@@ -12,11 +12,20 @@ body {
     color: #0e0b0b;
 }
 
-/* logo and headings */
+/* header styling */
+
+header {
+    height: 100%;
+    background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+/* Logo and headings */
 
 #logo {
     text-align: center;
     font-size: 450%;
+    margin: auto;
 }
 
 header > p {
@@ -25,6 +34,7 @@ header > p {
     text-align: center;
     font-size: 150%;
     letter-spacing: 0.5px;
+    color: whitesmoke;
 }
 
 h1, h2 {
@@ -34,11 +44,20 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-/* Page element styling */
+/* Page elements */
 
 .container {
     height: 90vh;
     width: 100vw;
 }
 
+/* About section */
 
+
+/* Team section */
+
+
+/* Membership section */
+
+
+/* Info section */
