@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #0e0b0b;
 }
 
 body {
@@ -62,6 +61,7 @@ h2 {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    background-color: #0e0b0b;
 }
 
 #menu li {
@@ -100,12 +100,26 @@ h2 {
 
 /* Page elements */
 
-.container {
+.page {
     height: 80vh;
     width: 100vw;
+    background-color: #0e0b0b;
 }
 
 /* About section */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 800px;
+}
+
 
 
 /* Team section */
