@@ -120,6 +120,36 @@ h2 {
     height: 800px;
 }
 
+.card-img {
+    height: 375px;
+    background-color: #c81212;
+    margin-bottom: 20px;
+}
+
+.pow {
+    background-image: url(../images/pexels-grzegorz-5209197-min-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.build {
+    background-image: url(../images/pexels-ivan-remonte-4218662-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.mma {
+    background-image: url(../images/pexels-alexa-popovich-9302141-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
 
 
 /* Team section */
