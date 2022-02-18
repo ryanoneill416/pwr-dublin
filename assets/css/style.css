@@ -39,7 +39,7 @@ header {
 }
 
 h2 {
-    font-family: Teko, sans-serif;
+    font-family: Teko;
     text-transform: uppercase;
     color: #c81212;
     letter-spacing: 2px;
@@ -50,6 +50,15 @@ h2 {
     text-underline-offset: 10px;
 }
 
+h3 {
+    font-family: Teko;
+    text-transform: uppercase;
+    color: #0e0b0b;
+    text-align: center;
+    font-size: 300%;
+    text-decoration: underline 2px solid #c81212;
+    text-underline-offset: 10px;
+}
 /* Navigation links */
 
 #menu {
@@ -110,20 +119,25 @@ h2 {
 
 .container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: whitesmoke;
     width: 500px;
     height: 800px;
+    color: #0e0b0b;
+    border-radius: 30px;
+    margin: 5% 1%;
 }
 
 .card-img {
     height: 375px;
     background-color: #c81212;
     margin-bottom: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .pow {
