@@ -169,10 +169,7 @@ h3 {
    text-align: left;
    font-size: 120%;
    line-height: 35px;
-}
-
-.mma-list {
-    
+   list-style-type: square;
 }
 
 
