@@ -24,7 +24,6 @@ header {
 /* Logo and headings */
 
 #logo {
-    /* text-align: center; */
     font-family: Teko;
     text-transform: uppercase;
     font-size: 1000%;
@@ -54,7 +53,6 @@ h3 {
     font-family: Teko;
     text-transform: uppercase;
     color: #0e0b0b;
-    /* text-align: center; */
     font-size: 300%;
     text-decoration: underline 2px solid #c81212;
     text-underline-offset: 10px;
@@ -90,7 +88,6 @@ p {
 .animation {
     display: inline-block;
     position: relative;
-    /* color: #c81212; */
 }
 
 .animation:after {
@@ -183,32 +180,57 @@ p {
 
 #team-heading {
     width: 100%;
-    height: 20%;
+    height: 10vh;
+    background-color: whitesmoke;
+}
+
+#team-kev {
+    width: 100%;
+    height: 35vh;
     background-color: whitesmoke;
     position: relative;
 }
 
 #team-heading h2 {
     position: absolute;
-    top: 10%;
-    transform: translateY(-10%);
     left: 50%;
     transform: translateX(-50%);
     font-size: 500%;
 }
 
-#team-kev {
-    width: 100%;
-    height: 400px;
-    background-color: whitesmoke;
+#team-kev h3 {
+    position: absolute;
+    top: 10%;
+    transform: translateY(-10%);
+    left: 25%;
+    transform: translateX(-25%);
 }
+
 
 #team-kev li {
     color: #0e0b0b;
     list-style-type: square;
     margin-top: 10px;
-    margin-left: 20%;
     line-height: 35px;
+}
+
+#team-kev ul {
+    position: absolute;
+    left: 25%;
+    transform: translateX(-25%);
+    top: 60%;
+    transform: translateY(-60%);
+}
+
+#team-pic {
+    width: 275px;
+    height: 350px;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-10%);
+    left: 75%;
+    transform: translateX(-75%);
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0, .75);
 }
 /* Membership section */
 
