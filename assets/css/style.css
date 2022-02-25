@@ -56,12 +56,14 @@ h3 {
     font-size: 300%;
     text-decoration: underline 2px solid #c81212;
     text-underline-offset: 10px;
+    letter-spacing: 2px;
 }
 
 h4 {
+    color: whitesmoke;
     font-family: Teko;
     text-transform: uppercase;
-    font-size: 125%;
+    font-size: 145%;
     text-align: center;
     letter-spacing: 2px;
 }
@@ -217,6 +219,7 @@ p {
     list-style-type: square;
     margin-top: 10px;
     line-height: 35px;
+    font-size: 120%;
 }
 
 .team-sec ul {
@@ -239,7 +242,8 @@ p {
 
 #memb-heading {
     width: 100%;
-    height: 12.5vh;
+    height: 20vh;
+    position: relative;
 }
 
 #memb-heading h2 {
@@ -247,13 +251,50 @@ p {
     text-decoration: underline 2px solid whitesmoke;
 }
 
+#memb-heading h4 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .price-card {
     width: 350px;
     height: 550px;
-    background-color: whitesmoke;
+    background-color: black;
     margin: 2% 1%;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
 }
 
+.price-card h1 {
+    color: whitesmoke;
+    font-family: Teko;
+    text-transform: uppercase;
+    font-size: 333%;
+    letter-spacing: 2px;
+    text-decoration: underline 2px solid #c81212;
+    text-underline-offset: 10px;
+}
 
+.price-card h4 {
+    position: absolute;  
+    font-size: 666%;
+    text-shadow: 5px 5px 4px #c81212;
+    top: 30%;
+    transform: translateY(-30%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.price-card p {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 70%;
+    color: #c81212;
+}
 
 /* Info section */
