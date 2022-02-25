@@ -266,6 +266,7 @@ p {
     border-radius: 10px;
     text-align: center;
     position: relative;
+    border: .5px solid whitesmoke;
 }
 
 .price-card h1 {
@@ -297,4 +298,35 @@ p {
     color: #c81212;
 }
 
+#memb-day {
+    background-image: url(../images/brett-jordan-U2q73PfHFpM-unsplash-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#memb-week {
+    background-image: url(../images/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#memb-month {
+    background-image: url(../images/sushil-ghimire-5UbIqV58CW8-unsplash-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#memb-year {
+    background-image: url(../images/edgar-chaparro-sHfo3WOgGTU-unsplash\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;;
+}
 /* Info section */
