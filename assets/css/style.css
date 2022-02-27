@@ -12,30 +12,7 @@ body {
     color: whitesmoke;
 }
 
-/* header styling */
-
-header {
-    height: 80vh;
-    background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-/* Logo and headings */
-
-#logo {
-    font-family: Teko;
-    text-transform: uppercase;
-    font-size: 1000%;
-    color: whitesmoke;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translateY(-25%);
-    transform: translateX(-50%);
-    border-bottom: 3px solid #c81212;
-    background: none;
-}
+/* Generic style rules to avoid repetition */
 
 h2 {
     font-family: Teko;
@@ -71,7 +48,33 @@ h4 {
 p {
     color: #0e0b0b;
 }
-/* Navigation links */
+
+/* header styling */
+
+header {
+    height: 80vh;
+    background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Logo and headings */
+
+#logo {
+    font-family: Teko;
+    text-transform: uppercase;
+    font-size: 1000%;
+    color: whitesmoke;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateY(-25%);
+    transform: translateX(-50%);
+    border-bottom: 3px solid #c81212;
+    background: none;
+}
+
+/* Navigation links styling*/
 
 #menu {
     font-size: 200%;
@@ -118,14 +121,14 @@ p {
     transform-origin: bottom left;
 }
 
-/* Page elements */
+/* Page element styling */
 
 .page {
     width: 100vw;
     background-color: #0e0b0b;
 }
 
-/* About section */
+/* About section styling */
 
 .container {
     display: flex;
@@ -185,7 +188,7 @@ p {
 }
 
 
-/* Team section */
+/* Team section styling */
 
 #team-heading {
     width: 100%;
@@ -238,7 +241,7 @@ p {
     transform: translateX(-75%);
     box-shadow: 3px 3px 10px 2px rgba(0,0,0, .75);
 }
-/* Membership section */
+/* Membership section styling*/
 
 #memb-heading {
     width: 100%;
@@ -266,7 +269,7 @@ p {
     border-radius: 10px;
     text-align: center;
     position: relative;
-    border: .5px solid whitesmoke;
+    border: 3px solid whitesmoke;
 }
 
 .price-card h1 {
@@ -277,14 +280,14 @@ p {
     letter-spacing: 2px;
     text-decoration: underline 2px solid #c81212;
     text-underline-offset: 10px;
+    background-color: rgba(0,0,0, .75);
 }
 
 .price-card h4 {
     position: absolute;  
-    font-size: 666%;
+    font-size: 900%;
     text-shadow: 5px 5px 4px #c81212;
-    top: 30%;
-    transform: translateY(-30%);
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -295,7 +298,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     font-size: 70%;
-    color: #c81212;
+    color: whitesmoke;
 }
 
 #memb-day {
@@ -307,7 +310,7 @@ p {
 }
 
 #memb-week {
-    background-image: url(../images/hayley-kim-design-eot-ka5dM7Q-unsplash.jpg);
+    background-image: url(../images/pexels-cottonbro-4761790-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -315,7 +318,7 @@ p {
 }
 
 #memb-month {
-    background-image: url(../images/sushil-ghimire-5UbIqV58CW8-unsplash-min.jpg);
+    background-image: url(../images/pexels-leon-ardho-9602276\(1\)-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -329,4 +332,5 @@ p {
     background-position: center;
     overflow: hidden;;
 }
-/* Info section */
+
+/* Info section  styling*/
