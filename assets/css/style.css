@@ -128,8 +128,6 @@ header {
     background-color: #0e0b0b;
 }
 
-/* About section styling */
-
 .container {
     display: flex;
     justify-content: center;
@@ -137,13 +135,25 @@ header {
     flex-direction: row;
 }
 
+/* About section styling */
+
+#about-heading {
+    width: 100%;
+    height: 12.5vh;
+}
+
+#about-heading h2 {
+    font-size: 500%;
+    text-decoration: underline 2px solid whitesmoke;
+}
+
 .card {
     background-color: whitesmoke;
     width: 500px;
     height: 800px;
     color: #0e0b0b;
-    border-radius: 30px;
-    margin: 5% 1%;
+    border-radius: 10px;
+    margin: 2% 1%;
     text-align: center;
 }
 
@@ -151,7 +161,8 @@ header {
     height: 375px;
     background-color: #c81212;
     margin-bottom: 20px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid white;
 }
 
 .pow {
