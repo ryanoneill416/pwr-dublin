@@ -55,10 +55,12 @@ h5 {
 
 p {
     color: #0e0b0b;
+    font-weight: 700;
 }
 
 li {
     color: #0e0b0b;
+    font-weight: 700;
 }
 /* header styling */
 
@@ -376,13 +378,110 @@ header {
     margin: 0 5% 10%;
 }
 
+.info-sec h3 {
+    position: absolute;
+    font-size: 375%;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Find Us section styling */
+
 #find-us {
     width: 750px;
     height: 80vh;
     background-color: whitesmoke;
     border-radius: 15px;
     position: relative;
+    border: 2px solid #c81212;
 }
+
+#find-us h5 {
+    color: #c81212;
+}
+
+#find-us li {
+    list-style: none;
+}
+
+#find-address {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#address-1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#address-2 {
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#find-us iframe {
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#find-contact {
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact-p2 {
+    position: absolute;
+    top: 72.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#contact-p3 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#find-coach {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#coach-p1 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#coach-p2 {
+    position: absolute;
+    top: 87.5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* Form section styling  */
 
 #form {
     width: 750px;
@@ -390,14 +489,6 @@ header {
     background-color: #c81212;
     border-radius: 15px;
     position: relative;
-}
-
-.info-sec h3 {
-    position: absolute;
-    font-size: 375%;
-    top: 1%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 #form h3 {
