@@ -169,8 +169,33 @@
                 <p id="coach-p1">kevmadden.coaching@pwrdublin.com</p>
                 <p id="coach-p2">jackshea.coaching@pwrdublin.com</p>
             </div>
-            <div class="info-sec" id="form">
+            <div class="info-sec" id="form-card">
                 <h3>ask us</h3>
+                <h6>need more info? We're happy to help!</h6>
+                <form action="./form-complete.html" method="get" class="info-form">
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="first_name" id="fname" class="text-input" required><br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email_address" id="email" class="text-input" required><br>
+                    <label for="dropdown">Category:</label>
+                    <select name="info_category" id="dropdown" class="dropdown">
+                        <option value="placeholder">Select one of the following:</option>
+                        <option value="facilities">Facilities</option>
+                        <option value="coaching_kevin">Coaching Enquiry: Kevin</option>
+                        <option value="coaching_jack">Coaching Enquiry: Jack</option>
+                        <option value="business">Business</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                    <label for="other">Please Explain Below:</label><br>
+                    <!-- <input type="text" name="other_desc" id="other" class="text-input2"><br> -->
+                    <textarea name="desc" id="form-desc" cols="1" rows="4" class="text-input2" required></textarea>
+                    <label for="newsletter">Would you lke to receive promotional emails and offers?</label><br>
+                    <label for="yes">Of Course!</label>
+                    <input type="radio" name="newsletter" id="yes newsletter" class="radios" required>
+                    <label for="no">Not Now :(</label>
+                    <input type="radio" name="newsletter" id="no newsletter" class="radios"><br>
+                    <input type="submit" value="Done !" class="form-button">
+                </form>
             </div>
         </section>
     </main>
