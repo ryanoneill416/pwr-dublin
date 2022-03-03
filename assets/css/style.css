@@ -448,28 +448,28 @@ header {
 
 #find-contact {
     position: absolute;
-    top: 66%;
+    top: 67.5%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .contact-p {
     position: absolute;
-    top: 70%;
+    top: 71.5%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 #contact-p2 {
     position: absolute;
-    top: 72.5%;
+    top: 74%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 #contact-p3 {
     position: absolute;
-    top: 75%;
+    top: 76.5%;
     left: 50%;
     transform: translateX(-50%);
 }
