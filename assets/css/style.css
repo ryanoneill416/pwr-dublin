@@ -18,7 +18,6 @@ h1 {
     font-family: Teko;
     text-transform: uppercase;
     color: whitesmoke;
-    border-bottom: 3px solid #c81212;
 }
 
 h2 {
@@ -101,6 +100,7 @@ header {
     transform: translateY(-25%);
     transform: translateX(-50%);
     background: none;
+    border-bottom: 3px solid #c81212;
 }
 
 /* Navigation links styling*/
