@@ -14,6 +14,13 @@ body {
 
 /* Generic style rules to avoid repetition */
 
+h1 {
+    font-family: Teko;
+    text-transform: uppercase;
+    color: whitesmoke;
+    border-bottom: 3px solid #c81212;
+}
+
 h2 {
     font-family: Teko;
     text-transform: uppercase;
@@ -87,16 +94,12 @@ header {
 /* Logo and headings */
 
 #logo {
-    font-family: Teko;
-    text-transform: uppercase;
     font-size: 1000%;
-    color: whitesmoke;
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translateY(-25%);
     transform: translateX(-50%);
-    border-bottom: 3px solid #c81212;
     background: none;
 }
 
@@ -576,6 +579,26 @@ header {
 
 footer {
     background-color: #0e0b0b;
+    position: relative;
+}
+
+footer p {
+    font-family: Teko;
+    color: whitesmoke;
+    font-size: 130%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#motto {
+    font-family: Teko;
+    font-size: 140%;
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 30%;
 }
 
 #page-foot {
@@ -584,7 +607,30 @@ footer {
     border-radius: 35px 35px 0 0;
 }
 
+#foot-head {
+    font-size: 400%;
+    text-decoration: underline 4px solid #0e0b0b;
+    text-underline-offset: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#footp1 {
+    top: 40%;
+}
+
+#footp2 {
+    top: 50%;
+}
+
 #below-foot {
     background-color: #8c0b0b;
     height: 45px;
+}
+
+#below-foot p {
+    font-family: Poppins;
+    font-size: 90%;
+    top: 87.5%;
 }
