@@ -571,3 +571,20 @@ header {
     background-color: whitesmoke;
     color: #0e0b0b;
 }
+
+/* Footer styling */
+
+footer {
+    background-color: #0e0b0b;
+}
+
+#page-foot {
+    background: #c81212;
+    height: 230px;
+    border-radius: 35px 35px 0 0;
+}
+
+#below-foot {
+    background-color: #8c0b0b;
+    height: 45px;
+}
