@@ -609,7 +609,7 @@ footer p {
 
 #foot-head {
     font-size: 400%;
-    text-decoration: underline 4px solid #0e0b0b;
+    text-decoration: underline 2.5px solid #0e0b0b;
     text-underline-offset: 10px;
     position: absolute;
     left: 50%;
@@ -633,4 +633,21 @@ footer p {
     font-family: Poppins;
     font-size: 90%;
     top: 87.5%;
+}
+
+/* Footer icon styling  */
+
+.social-links {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.social-links a {
+    font-size: 175%;
+    display: inline;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 5px;
 }
