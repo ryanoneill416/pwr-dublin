@@ -97,7 +97,6 @@ header {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translateY(-25%);
     transform: translateX(-50%);
     background: none;
     border-bottom: 3px solid #c81212;
@@ -699,6 +698,84 @@ footer p {
         width: 425px;
         height: 900px;
     }
+}
 
+@media screen and (max-width: 1560px) {
+    .price-card {
+       width: 400px;
+       height: 600px;
+       margin: 2% 4% 4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .card {
+        width: 350px;
+        height: 800px;   
+    }
+
+    .about-list {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    #menu {
+        width: 60%;
+    }
+
+    .team-sec li {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .team-sec li {
+        font-size: 90%;
+    }
+
+    #logo {
+        font-size: 900%;
+        top: 35%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #logo {
+        font-size: 750%;
+        top: 40%;
+    }
+
+    h2 {
+        font-size: 450%;
+    }
     
+    #menu {
+        width: 70%;
+    }
+
+    #menu li {
+        margin: 15px 20px;
+    }
+
+    #team-heading {
+        height: 10vh;
+    }
+
+    .card {
+        width: 500px;
+        margin: 2.5% 5% 5%;
+    }
+
+    .card ul {
+        font-size: 115%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .price-card {
+        width: 400px;
+        height: 600px;
+        margin: 2% 3% 4%;
+    }
 }
