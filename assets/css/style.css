@@ -518,6 +518,18 @@ header {
     transform: translateX(-50%);
 }
 
+#form-card p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#complete-p1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .info-form {
     font-size: 120%;
     margin: 27.5% 7.5% 0;
@@ -575,6 +587,27 @@ header {
     color: #0e0b0b;
 }
 
+.form-button2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-button2 {
+    font-family: Teko;
+    color: whitesmoke;
+    background-color: #c81212;
+    margin-top: 25px;
+    padding: 7.5px 30px;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+.form-button2:hover {
+    background-color: whitesmoke;
+    color: #0e0b0b;
+}
 /* Footer styling */
 
 footer {
