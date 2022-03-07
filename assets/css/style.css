@@ -180,6 +180,7 @@ header {
     border-radius: 10px;
     margin: 2.5% 1% 10%;
     text-align: center;
+    position: relative;
 }
 
 .card-img {
@@ -215,12 +216,15 @@ header {
 }
 
 .about-list {
-   margin-left: 80px;
+   position: absolute;
+   left: 70%;
+   transform: translateX(-70%);
    margin-top: 40px;
    text-align: left;
    font-size: 120%;
    line-height: 35px;
    list-style-type: square;
+   width: 80%;
 }
 
 
@@ -684,4 +688,17 @@ footer p {
     text-decoration: none;
     color: whitesmoke;
     margin-right: 5px;
+}
+
+/* Media queries */
+
+/* For screen sizes from 1600px wide and down  */
+
+@media screen and (max-width: 1600px) {
+    .card {
+        width: 425px;
+        height: 900px;
+    }
+
+    
 }
