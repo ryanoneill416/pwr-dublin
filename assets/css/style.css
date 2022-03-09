@@ -269,13 +269,12 @@ header {
 
 .team-sec ul {
     position: absolute;
-    left: 7.55%;
-    transform: translateX(-7.5%);
+    left: 7.5%;
     top: 60%;
     transform: translateY(-60%);
 }
 
-#team-pic {
+.team-pic {
     width: 300px;
     height: 375px;
     position: absolute;
@@ -717,6 +716,10 @@ footer p {
     .about-list {
         font-size: 90%;
     }
+
+    #info-heading {
+        height: 15vh;
+    }
 }
 
 @media screen and (max-width: 1310px) {
@@ -741,9 +744,12 @@ footer p {
 }
 
 @media screen and (max-width: 1150px) {
+    header {
+        height: 60vh;
+    }
+   
     #logo {
-        font-size: 750%;
-        top: 40%;
+        font-size: 800%;
     }
 
     h2 {
@@ -772,10 +778,61 @@ footer p {
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1050px) {
     .price-card {
         width: 400px;
         height: 600px;
         margin: 2% 3% 4%;
+    }
+
+    #team-heading {
+        height: 17.5vh;
+    }
+
+    .team-sec h3 {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+    .team-sec ul {
+        left: 5%;
+        top: 65%;
+    }
+
+    .team-pic {
+        width: 225px;
+        height: 300px;
+        left: 90%;
+        transform: translateX(-90%);
+        top: 27.5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #logo {
+        font-size: 700%;
+    }
+
+    .team-sec {
+        width: 60%;
+        height: 750px;
+    }
+
+    .team-sec h3 {
+        top: 2.5%;
+    }
+    
+    .team-pic {
+    width: 250px;
+    height: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15%;
+    }
+
+    .team-sec ul {
+    left: 15%;
+    top: 82.5%;
     }
 }
