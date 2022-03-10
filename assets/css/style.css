@@ -880,7 +880,7 @@ footer p {
     }
 
     #info-heading {
-        margin-top: 5%;
+        margin-top: 10%;
     }
 
     #find-us {
@@ -950,5 +950,90 @@ footer p {
 
     .form-button2 {
         top: 30%;
+    }
+
+    #below-foot p {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    header {
+        height: 45vh;
+    }
+
+    #logo {
+        font-size: 500%;
+    }
+
+    #menu {
+        width: 90%;
+        font-size: 160%;
+    }
+
+    #menu li {
+        margin: 15px 15px;
+    }
+
+    h2 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 275%;
+    }
+
+    #about-heading {
+        margin-top: 10%;
+    }
+
+    #team-heading {
+        margin-top: 10%;
+    }
+
+    .team-sec ul {
+        left: 10%;
+    }
+
+    #find-us {
+        width: 575px;
+        height: 900px;
+    }
+
+    #ask-us {
+        width: 575px;
+        height: 900px;
+    }
+
+    .info-sec h3 {
+        font-size: 300%;
+    }
+
+    #find-contact {
+        top: 75%;
+    }
+
+    .contact-p {
+        top: 79%;
+    }
+
+    #contact-p2 {
+        top: 81.5%;
+    }
+
+    #contact-p3 {
+        top: 84%;
+    }
+
+    #find-coach {
+        top: 87.5%;
+    }
+
+    #coach-p1 {
+        top: 91.5%;
+    }
+
+    #coach-p2 {
+        top: 94%;
     }
 }
