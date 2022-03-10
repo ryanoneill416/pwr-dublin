@@ -441,7 +441,6 @@ header {
 }
 
 .map-container {
-    background-color: #8c0b0b;
     position: relative;
     top: 22.5%;
     left: 50%;
@@ -1000,7 +999,7 @@ footer p {
         height: 900px;
     }
 
-    #ask-us {
+    #form-card {
         width: 575px;
         height: 900px;
     }
@@ -1035,5 +1034,9 @@ footer p {
 
     #coach-p2 {
         top: 94%;
+    }
+
+    #form-card h6 {
+        font-size: 110%;
     }
 }
