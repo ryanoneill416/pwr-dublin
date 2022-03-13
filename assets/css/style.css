@@ -95,11 +95,12 @@ header {
 #logo {
     font-size: 1000%;
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
     background: none;
-    border-bottom: 3px solid #c81212;
+    text-decoration: underline 3px solid #c81212;
+    text-underline-offset: 20px;
 }
 
 /* Navigation links styling*/
@@ -684,6 +685,8 @@ footer p {
     font-family: Poppins;
     font-size: 70%;
     top: 87.5%;
+    width: 100%;
+    text-align: center;
 }
 
 /* Footer icon styling  */
@@ -754,13 +757,12 @@ footer p {
 
     #logo {
         font-size: 900%;
-        top: 35%;
     }
 }
 
 @media screen and (max-width: 1150px) {
     header {
-        height: 60vh;
+        height: 50vh;
     }
 
     #logo {
@@ -862,7 +864,7 @@ footer p {
     }
     
     header {
-        height: 50vh;
+        height: 45vh;
     }
     
     #logo {
@@ -957,12 +959,8 @@ footer p {
 }
 
 @media screen and (max-width: 705px) {
-    header {
-        height: 45vh;
-    }
-
     #logo {
-        font-size: 500%;
+        font-size: 550%;
     }
 
     #menu {
@@ -1038,5 +1036,174 @@ footer p {
 
     #form-card h6 {
         font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    header {
+        height: 35vh;
+    }
+    
+    #logo {
+        font-size: 460%;
+    }
+
+    h2 {
+        font-size: 300%;
+    }
+
+    #about-heading {
+        height: 10vh;
+    }
+
+    .card {
+        width: 425px;
+    }
+
+    h3 {
+        font-size: 233%;
+    }
+
+    .card ul {
+        font-size: 105%;
+    }
+
+    #team-heading {
+        height: 15vh;
+    }
+
+    .team-sec h3 {
+        top: 2%;
+    }
+
+    .team-pic {
+        width: 233px;
+        height: 300px;
+        top: 12.5%;
+    }
+
+    .team-sec ul {
+        left: 9%;
+        font-size: 92.5%;
+        top: 77.5%;
+    }
+
+    #memb-heading {
+        height: 15vh;
+    }
+
+    #memb-heading h4 {
+        font-size: 110%;
+    }
+
+    .price-card {
+        width: 350px;
+        height: 525px;
+    }
+
+    #info-heading {
+        height: 10vh;
+    }
+
+    #find-us {
+        width: 475px;
+        height: 800px;
+    }
+
+    #form-card {
+        width: 475px;
+        height: 800px;
+    }
+
+    .info-sec h3 {
+        font-size: 233%;
+    }
+
+    p {
+        font-size: 85%;
+        text-align: center;
+    }
+
+    .map-container {
+        height: 350px;
+        top: 24%;
+    }
+
+    h5 {
+        font-size: 150%;
+    }
+
+    #address-1 {
+        width: 100%;
+    }
+
+    #address-2 {
+        top: 18%;
+    }
+
+    #find-contact {
+        top: 70%;
+    }
+
+    .contact-p {
+        top: 75%;
+    }
+
+    #contact-p2 {
+        top: 78%;
+    }
+
+    #contact-p3 {
+        top: 81%;
+    }
+
+    #find-coach {
+        top: 86%;
+    }
+
+    #coach-p1 {
+        top: 91%;
+    }
+
+    #coach-p2 {
+        top: 94%;
+    }
+
+    #form-card h6 {
+        font-size: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-form {
+        font-size: 90%;
+    }
+
+    #foot-head {
+        font-size: 350%;
+    }
+
+    #motto {
+        font-size: 115%;
+    }
+
+    footer p {
+        font-size: 110%;
+    }
+
+    #footp1 {
+        top: 40%;
+    }
+
+    #footp2 {
+        top: 48.5%;
+    }
+
+    .social-links {
+        top: 62.5%;
+    }
+
+    .social-links a {
+        font-size: 150%;
     }
 }
