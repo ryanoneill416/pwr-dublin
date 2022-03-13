@@ -323,7 +323,7 @@ header {
     border: 1px solid whitesmoke;
 }
 
-.price-card h1 {
+.price-card h3 {
     color: whitesmoke;
     font-family: Teko;
     text-transform: uppercase;
@@ -1236,7 +1236,7 @@ footer p {
         height: 850px;
     }
 
-    .price-card h1 {
+    .price-card h3 {
         font-size: 275%;
     }
 
