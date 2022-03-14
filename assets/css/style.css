@@ -84,7 +84,7 @@ textarea {
 /* header styling */
 
 header {
-    height: 80vh;
+    height: 1000px;
     background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
@@ -761,7 +761,7 @@ footer p {
 
 @media screen and (max-width: 1150px) {
     header {
-        height: 50vh;
+        height: 750px;
     }
 
     #logo {
@@ -864,7 +864,7 @@ footer p {
     }
     
     header {
-        height: 45vh;
+        height: 600px;
     }
     
     #logo {
@@ -1207,7 +1207,7 @@ footer p {
 
 @media screen and (max-width: 560px) {
     header {
-        height: 35vh;
+        height: 500px;
     }
     
     #logo {
