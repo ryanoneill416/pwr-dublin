@@ -170,7 +170,7 @@ header {
 
 #about-heading {
     width: 100%;
-    height: 12.5vh;
+    height: 200px;
     margin-top: 2.5%;
 }
 
@@ -234,7 +234,7 @@ header {
 
 #team-heading {
     width: 100%;
-    height: 15vh;
+    height: 200px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -301,13 +301,13 @@ header {
 
 #memb-heading {
     width: 100%;
-    height: 20vh;
+    height: 250px;
     position: relative;
 }
 
 #memb-heading h4 {
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -389,7 +389,7 @@ header {
 
 #info-heading {
     width: 100%;
-    height: 20vh;
+    height: 200px;
 }
 
 .info-sec {
@@ -737,10 +737,6 @@ footer p {
     .about-list {
         font-size: 90%;
     }
-
-    #info-heading {
-        height: 15vh;
-    }
 }
 
 @media screen and (max-width: 1310px) {
@@ -785,7 +781,7 @@ footer p {
     }
 
     #team-heading {
-        height: 10vh;
+        height: 150px;
     }
 
     .card {
@@ -806,7 +802,7 @@ footer p {
     }
 
     #team-heading {
-        height: 17.5vh;
+        height: 250px;
     }
 
     .team-sec h3 {
@@ -876,8 +872,9 @@ footer p {
     }
 
     #memb-heading h4 {
-        top: 45%;
         font-size: 133%;
+        top: 60%;
+        width: 70%;
     }
 
     #info-heading {
@@ -945,12 +942,12 @@ footer p {
     }
 
     #complete-p1 {
-        font-size: 120%;
+        font-size: 110%;
         width: 70%;
     }
 
     .form-button2 {
-        top: 30%;
+        top: 27.5%;
     }
 
     #below-foot p {
@@ -1035,7 +1032,7 @@ footer p {
     }
 
     #form-card h6 {
-        font-size: 110%;
+        font-size: 130%;
     }
 }
 
@@ -1049,7 +1046,7 @@ footer p {
     }
 
     #about-heading {
-        height: 10vh;
+        height: 150px;
     }
 
     .card {
@@ -1066,7 +1063,7 @@ footer p {
     }
 
     #team-heading {
-        height: 15vh;
+        height: 200px;
     }
 
     .team-sec h3 {
@@ -1086,7 +1083,7 @@ footer p {
     }
 
     #memb-heading {
-        height: 15vh;
+        height: 200px;
     }
 
     #memb-heading h4 {
@@ -1167,7 +1164,7 @@ footer p {
     }
 
     #form-card h6 {
-        font-size: 100%;
+        font-size: 120%;
         width: 100%;
         text-align: center;
     }
@@ -1182,6 +1179,11 @@ footer p {
 
     #motto {
         font-size: 115%;
+    }
+
+    #complete-p1 {
+        top: 16%;
+        font-size: 90%;
     }
 
     footer p {
@@ -1250,5 +1252,10 @@ footer p {
 
     #motto {
         width: 100%;
+    }
+
+    #complete-p1 {
+        font-size: 85%;
+        width: 75%;
     }
 }
