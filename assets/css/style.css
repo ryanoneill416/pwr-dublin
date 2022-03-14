@@ -174,6 +174,10 @@ header {
     margin-top: 2.5%;
 }
 
+#about-heading h2 {
+    margin-top: 40px;
+}
+
 .card {
     background-color: whitesmoke;
     width: 500px;
@@ -290,11 +294,11 @@ header {
 }
 
 #team-start {
-    margin: 5% 10% 2%;
+    margin: 5% 10% 5%;
 }
 
 #team-end {
-    margin: 2% 10% 5%;
+    margin: 5% 10% 5%;
 }
 
 /* Membership section styling*/
@@ -731,7 +735,7 @@ footer p {
 @media screen and (max-width: 1400px) {    
     .card {
         width: 350px;
-        height: 800px;
+        height: 750px;
     }
 
     .about-list {
@@ -871,6 +875,14 @@ footer p {
         width: 90%;
     }
 
+    #team-start {
+        margin: 5% 7.5% 5%;
+    }
+    
+    #team-end {
+        margin: 5% 7.5% 2%;
+    }
+    
     #memb-heading h4 {
         font-size: 133%;
         top: 60%;
@@ -1219,7 +1231,7 @@ footer p {
 
     #menu {
         width: 100%;
-        font-size: 120%;
+        font-size: 130%;
     }
 
     .card {
@@ -1257,5 +1269,71 @@ footer p {
     #complete-p1 {
         font-size: 85%;
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        height: 420px;
+    }
+
+    #logo {
+        top: 30%;
+        font-size: 500%;
+    }
+
+    #menu li {
+        margin: 15px 10px;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card ul {
+        font-size: 85%;
+    }
+
+    #team-start {
+        margin: 5% 2.5% 5%;
+    }
+
+    #team-end {
+        margin: 5% 2.5% 5%;
+    }
+
+    .team-sec {
+        width: 385px;
+    }
+
+    #team-heading h2 {
+        width: 70%;
+    }
+
+    .team-pic {
+        top: 11%;
+    }
+    
+    .team-sec ul {
+        top: 75%;
+        left: 10%;
+        width: 85%;
+    }
+
+    #memb-heading {
+        height: 233px;
+    }
+
+    #memb-heading h2 {
+        margin-top: 40px;
+    }
+
+    #memb-heading h4 {
+        width: 80%;
+    }
+
+    .price-card {
+        width: 300px;
+        height: 475px;
     }
 }
