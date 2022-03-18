@@ -40,36 +40,6 @@ h3 {
     text-decoration: underline 1.5px solid #c81212;
     text-underline-offset: 10px;
     letter-spacing: 1px;
-} */
-
-h1 {
-    font-family: Teko;
-    text-transform: uppercase;
-    color: whitesmoke;
-}
-
-h2 {
-    font-family: Teko;
-    text-transform: uppercase;
-    color: #c81212;
-    letter-spacing: 2px;
-    font-size: 500%;
-    text-align: center;
-    margin-top: 2%;
-    -webkit-text-decoration: underline 1.5px solid whitesmoke;
-            text-decoration: underline 1.5px solid whitesmoke;
-    text-underline-offset: 10px;
-}
-
-h3 {
-    font-family: Teko;
-    text-transform: uppercase;
-    color: #0e0b0b;
-    font-size: 300%;
-    -webkit-text-decoration: underline 1.5px solid #c81212;
-            text-decoration: underline 1.5px solid #c81212;
-    text-underline-offset: 10px;
-    letter-spacing: 1px;
 }
 
 h4 {
@@ -113,16 +83,16 @@ textarea {
 
 /* header styling */
 
-header {
+/* header {
     height: 1000px;
     background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
-}
+} */
 
 /* Logo and headings */
 
-#logo {
+/* #logo {
     font-size: 1000%;
     position: absolute;
     top: 35%;
@@ -133,11 +103,11 @@ header {
     text-underline-offset: 20px;
     width: 100%;
     text-align: center;
-}
+} */
 
 /* Navigation links styling*/
 
-#menu {
+/* #menu {
     font-size: 200%;
     font-family: Teko, sans-serif;
     letter-spacing: 1.5px;
@@ -180,11 +150,11 @@ header {
 .animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-}
+} */
 
 /* Page element styling */
 
-.page {
+/* .page {
     width: 100vw;
     background-color: #0e0b0b;
 }
@@ -194,11 +164,11 @@ header {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-}
+} */
 
 /* About section styling */
 
-#about-heading {
+/* #about-heading {
     width: 100%;
     height: 200px;
     margin-top: 2.5%;
@@ -261,12 +231,12 @@ header {
     line-height: 35px;
     list-style-type: square;
     width: 80%;
-}
+} */
 
 
 /* Team section styling */
 
-#team-heading {
+/* #team-heading {
     width: 100%;
     height: 200px;
     border-radius: 15px 15px 0 0;
@@ -329,11 +299,11 @@ header {
 
 #team-end {
     margin: 5% 10% 5%;
-}
+} */
 
 /* Membership section styling*/
 
-#memb-heading {
+/* #memb-heading {
     width: 100%;
     height: 250px;
     position: relative;
@@ -417,11 +387,11 @@ header {
     background-position: center;
     overflow: hidden;
     ;
-}
+} */
 
 /* Info section  styling */
 
-#info-heading {
+/* #info-heading {
     width: 100%;
     height: 200px;
 }
@@ -440,7 +410,7 @@ header {
 
 /* Find Us section styling */
 
-#find-us {
+/* #find-us {
     width: 750px;
     height: 1050px;
     background-color: whitesmoke;
@@ -545,11 +515,11 @@ header {
     top: 87.5%;
     width: 100%;
     text-align: center;
-}
+} */
 
 /* Form section styling  */
 
-#form-card {
+/* #form-card {
     width: 750px;
     height: 1050px;
     background-image: url(../images/pexels-cottonbro-4761616-min.jpg);
@@ -662,11 +632,11 @@ header {
 .form-button2:hover {
     background-color: whitesmoke;
     color: #0e0b0b;
-}
+} */
 
 /* Footer styling */
 
-footer {
+/* footer {
     background-color: #0e0b0b;
     position: relative;
 }
@@ -725,11 +695,11 @@ footer p {
     top: 87.5%;
     width: 100%;
     text-align: center;
-}
+} */
 
 /* Footer icon styling  */
 
-.social-links {
+/* .social-links {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -742,13 +712,13 @@ footer p {
     text-decoration: none;
     color: whitesmoke;
     margin-right: 5px;
-}
+} */
 
 /* Media queries */
 
 /* For screen sizes from 1600px wide and down  */
 
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) {
     .card {
         width: 425px;
         height: 900px;
@@ -1257,6 +1227,1454 @@ footer p {
     #logo {
         font-size: 550%;
         text-decoration: underline 2px solid #c81212;
+    }
+
+    #menu {
+        width: 100%;
+        font-size: 130%;
+    }
+
+    .card {
+        width: 385px;
+    }
+
+    .about-list {
+        margin-top: 10px;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+    .team-sec {
+        height: 850px;
+    }
+
+    .price-card h3 {
+        font-size: 275%;
+    }
+
+    #find-us {
+        width: 425px;
+    }
+    
+    #form-card {
+        width: 425px;
+    }
+
+    #motto {
+        width: 100%;
+    }
+
+    #complete-p1 {
+        font-size: 85%;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        height: 420px;
+    }
+
+    #logo {
+        top: 30%;
+        font-size: 500%;
+    }
+
+    #menu li {
+        margin: 15px 10px;
+    }
+
+    .card {
+        width: 350px;
+    }
+
+    .card ul {
+        font-size: 85%;
+    }
+
+    #team-start {
+        margin: 5% 2.5% 5%;
+    }
+
+    #team-end {
+        margin: 5% 2.5% 5%;
+    }
+
+    .team-sec {
+        width: 385px;
+    }
+
+    #team-heading h2 {
+        width: 70%;
+    }
+
+    .team-pic {
+        top: 11%;
+    }
+    
+    .team-sec ul {
+        top: 75%;
+        left: 10%;
+        width: 85%;
+    }
+
+    #memb-heading {
+        height: 233px;
+    }
+
+    #memb-heading h2 {
+        margin-top: 40px;
+    }
+
+    #memb-heading h4 {
+        width: 90%;
+    }
+
+    .price-card {
+        width: 300px;
+        height: 475px;
+    }
+
+    .info-form {
+        position: absolute;
+        top: 2%;
+    }
+
+    .map-container {
+        height: 275px;
+    }
+
+    #find-contact {
+        top: 61.5%;
+    }
+
+    .contact-p {
+        top: 65.5%;
+    }
+
+    #contact-p2 {
+        top: 68.5%;
+    }
+
+    #contact-p3 {
+        top: 71.5%;
+    }
+
+    #find-coach {
+        top: 76.5%;
+    }
+
+    #coach-p1 {
+        top: 81.5%;
+    }
+
+    #coach-p2 {
+        top: 84.5%;
+    }
+
+    #foot-head {
+        font-size: 325%;
+    }
+
+    #complete-p1 {
+        width: 80%;
+    }
+
+    .form-button2 {
+        top: 30%;
+    }
+}  */
+
+h1 {
+    font-family: Teko;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: Teko;
+    text-transform: uppercase;
+    color: #c81212;
+    letter-spacing: 2px;
+    font-size: 500%;
+    text-align: center;
+    margin-top: 2%;
+    -webkit-text-decoration: underline 1.5px solid whitesmoke;
+            text-decoration: underline 1.5px solid whitesmoke;
+    text-underline-offset: 10px;
+}
+
+h3 {
+    font-family: Teko;
+    text-transform: uppercase;
+    color: #0e0b0b;
+    font-size: 300%;
+    -webkit-text-decoration: underline 1.5px solid #c81212;
+            text-decoration: underline 1.5px solid #c81212;
+    text-underline-offset: 10px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    color: whitesmoke;
+    font-family: Teko;
+    text-transform: uppercase;
+    font-size: 145%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-family: Teko;
+    color: #0e0b0b;
+    text-transform: uppercase;
+    font-size: 200%;
+    letter-spacing: 2px;
+}
+
+h6 {
+    font-family: Teko;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+p {
+    color: #0e0b0b;
+    font-weight: 700;
+}
+
+li {
+    color: #0e0b0b;
+    font-weight: 700;
+}
+
+textarea {
+    font-family: Poppins;
+}
+
+/* header styling */
+
+header {
+    height: 1000px;
+    background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Logo and headings */
+
+#logo {
+    font-size: 1000%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background: none;
+    -webkit-text-decoration: underline 3px solid #c81212;
+            text-decoration: underline 3px solid #c81212;
+    text-underline-offset: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Navigation links styling*/
+
+#menu {
+    font-size: 200%;
+    font-family: Teko, sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    background-color: #0e0b0b;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 15px 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.animation {
+    display: inline-block;
+    position: relative;
+}
+
+.animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #c81212;
+    -webkit-transform-origin: bottom right;
+        -ms-transform-origin: bottom right;
+            transform-origin: bottom right;
+    -webkit-transition: -webkit-transform 0.25s ease-out;
+    transition: -webkit-transform 0.25s ease-out;
+    -o-transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.animation:hover:after {
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+        -ms-transform-origin: bottom left;
+            transform-origin: bottom left;
+}
+
+/* Page element styling */
+
+.page {
+    width: 100vw;
+    background-color: #0e0b0b;
+}
+
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+/* About section styling */
+
+#about-heading {
+    width: 100%;
+    height: 200px;
+    margin-top: 2.5%;
+}
+
+#about-heading h2 {
+    margin-top: 40px;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 500px;
+    height: 800px;
+    color: #0e0b0b;
+    border-radius: 10px;
+    margin: 2.5% 1% 10%;
+    text-align: center;
+    position: relative;
+}
+
+.card-img {
+    height: 375px;
+    background-color: #c81212;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+    border: 1px solid white;
+}
+
+.pow {
+    background-image: url(../images/pexels-grzegorz-5209197-min-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.build {
+    background-image: url(../images/pexels-ivan-remonte-4218662-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.mma {
+    background-image: url(../images/pexels-alexa-popovich-9302141-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.about-list {
+    position: absolute;
+    left: 70%;
+    -webkit-transform: translateX(-70%);
+        -ms-transform: translateX(-70%);
+            transform: translateX(-70%);
+    margin-top: 40px;
+    text-align: left;
+    font-size: 120%;
+    line-height: 35px;
+    list-style-type: square;
+    width: 80%;
+}
+
+
+/* Team section styling */
+
+#team-heading {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.team-sec {
+    width: 95%;
+    max-width: 1200px;
+    height: 450px;
+    background-color: whitesmoke;
+    position: relative;
+    border-radius: 7.5px;
+    border: 1px solid #c81212;
+}
+
+#team-heading h2 {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.team-sec h3 {
+    position: absolute;
+    top: 7.5%;
+    left: 7.5%;
+    -webkit-transform: translateX(-7.5%);
+        -ms-transform: translateX(-7.5%);
+            transform: translateX(-7.5%);
+}
+
+
+.team-sec li {
+    color: #0e0b0b;
+    list-style-type: square;
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 120%;
+}
+
+.team-sec ul {
+    position: absolute;
+    left: 7.5%;
+    top: 60%;
+    -webkit-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+            transform: translateY(-60%);
+    width: 50%;
+}
+
+.team-pic {
+    width: 300px;
+    height: 375px;
+    position: absolute;
+    top: 8%;
+    left: 92.5%;
+    -webkit-transform: translateX(-92.5%);
+        -ms-transform: translateX(-92.5%);
+            transform: translateX(-92.5%);
+    -webkit-box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, .75);
+            box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, .75);
+    border-radius: 5px;
+}
+
+#team-start {
+    margin: 5% 10% 5%;
+}
+
+#team-end {
+    margin: 5% 10% 5%;
+}
+
+/* Membership section styling*/
+
+#memb-heading {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+#memb-heading h4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.price-card {
+    width: 350px;
+    height: 550px;
+    background-color: black;
+    margin: 2% 1% 12.5%;
+    border-radius: 7.5px;
+    text-align: center;
+    position: relative;
+    border: 1px solid whitesmoke;
+}
+
+.price-card h3 {
+    color: whitesmoke;
+    font-family: Teko;
+    text-transform: uppercase;
+    font-size: 333%;
+    letter-spacing: 2px;
+    -webkit-text-decoration: underline 2px solid #c81212;
+            text-decoration: underline 2px solid #c81212;
+    text-underline-offset: 10px;
+    background-color: rgba(0, 0, 0, .55);
+}
+
+.price-card h4 {
+    position: absolute;
+    font-size: 900%;
+    text-shadow: 5px 5px 4px #c81212;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.price-card p {
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-size: 70%;
+    color: whitesmoke;
+}
+
+#memb-day {
+    background-image: url(../images/brett-jordan-U2q73PfHFpM-unsplash-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#memb-week {
+    background-image: url(../images/pexels-cottonbro-4761790-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#memb-month {
+    background-image: url(../images/pexels-leon-ardho-9602276\(1\)-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+#memb-year {
+    background-image: url(../images/edgar-chaparro-sHfo3WOgGTU-unsplash\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    ;
+}
+
+/* Info section  styling */
+
+#info-heading {
+    width: 100%;
+    height: 200px;
+}
+
+.info-sec {
+    margin: 2.5% 1.5% 10%;
+}
+
+.info-sec h3 {
+    position: absolute;
+    font-size: 375%;
+    top: 1%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+/* Find Us section styling */
+
+#find-us {
+    width: 750px;
+    height: 1050px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid #c81212;
+}
+
+#find-us h5 {
+    color: #c81212;
+}
+
+#find-us li {
+    list-style: none;
+}
+
+#find-address {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+#address-1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+#address-2 {
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.map-container {
+    position: relative;
+    top: 22.5%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    width: 80%;
+    height: 450px;
+    -webkit-box-shadow: 3px 3px 10px 2px rgb(0 0 0 / 33%);
+            box-shadow: 3px 3px 10px 2px rgb(0 0 0 / 33%);
+}
+
+.responsive-map {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#find-contact {
+    position: absolute;
+    top: 67.5%;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-p {
+    position: absolute;
+    top: 71.5%;
+    width: 100%;
+    text-align: center;
+} 
+
+#contact-p2 {
+    position: absolute;
+    top: 74%;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-p3 {
+    position: absolute;
+    top: 76.5%;
+    width: 100%;
+    text-align: center;
+}
+
+#find-coach {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+}
+
+#coach-p1 {
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    text-align: center;
+}
+
+#coach-p2 {
+    position: absolute;
+    top: 87.5%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Form section styling  */
+
+#form-card {
+    width: 750px;
+    height: 1050px;
+    background-image: url(../images/pexels-cottonbro-4761616-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid whitesmoke;
+}
+
+#form-card h3 {
+    color: whitesmoke;
+    -webkit-text-decoration: underline 2px solid #c81212;
+            text-decoration: underline 2px solid #c81212;
+}
+
+#form-card h6 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+#form-card p {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#complete-p1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.info-form {
+    font-size: 120%;
+    margin: 27.5% 7.5% 0;
+    color: whitesmoke;
+    max-width: 750px;
+}
+
+.text-input {
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    height: 33px;
+    margin: 7.5px 0 20px 0;
+    border: .5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.text-input2 {
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+    border: .5px solid whitesmoke;
+    border-radius: 5px;
+    margin: 7.5px 0 20px 0;
+}
+
+.dropdown {
+    font-family: Poppins;
+    background: transparent;
+    color: whitesmoke;
+    width: 100%;
+    height: 40px;
+    margin: 7.5px 0 20px 0;
+    border: .5px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.radios {
+    margin: 0 20px 0 0;
+}
+
+.form-button {
+    font-family: Teko;
+    color: whitesmoke;
+    background-color: #c81212;
+    margin-top: 25px;
+    padding: 7.5px 30px;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+.form-button:hover {
+    background-color: whitesmoke;
+    color: #0e0b0b;
+}
+
+.form-button2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.form-button2 {
+    font-family: Teko;
+    color: whitesmoke;
+    background-color: #c81212;
+    margin-top: 25px;
+    padding: 7.5px 30px;
+    font-size: 150%;
+    border-radius: 5px;
+}
+
+.form-button2:hover {
+    background-color: whitesmoke;
+    color: #0e0b0b;
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #0e0b0b;
+    position: relative;
+}
+
+footer p {
+    font-family: Teko;
+    color: whitesmoke;
+    font-size: 117.5%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+#motto {
+    font-family: Teko;
+    font-size: 140%;
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 30%;
+}
+
+#page-foot {
+    background: #c81212;
+    height: 230px;
+    border-radius: 35px 35px 0 0;
+    border-top: 1.5px solid whitesmoke;
+}
+
+#foot-head {
+    font-size: 400%;
+    -webkit-text-decoration: underline 2.5px solid #0e0b0b;
+            text-decoration: underline 2.5px solid #0e0b0b;
+    text-underline-offset: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#footp1 {
+    top: 41.5%;
+}
+
+#footp2 {
+    top: 50%;
+}
+
+#below-foot {
+    background-color: #8c0b0b;
+    height: 45px;
+}
+
+#below-foot p {
+    font-family: Poppins;
+    font-size: 70%;
+    top: 87.5%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer icon styling  */
+
+.social-links {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+.social-links a {
+    font-size: 175%;
+    display: inline;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+/* Media queries */
+
+/* For screen sizes from 1600px wide and down  */
+
+@media screen and (max-width: 1600px) {
+    .card {
+        width: 425px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .price-card {
+        width: 400px;
+        height: 600px;
+        margin: 2% 4% 4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {    
+    .card {
+        width: 350px;
+        height: 750px;
+    }
+
+    .about-list {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    #menu {
+        width: 60%;
+    }
+
+    .team-sec li {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .team-sec li {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    header {
+        height: 750px;
+    }
+
+    #logo {
+        font-size: 900%;
+    }
+
+    h2 {
+        font-size: 450%;
+    }
+
+    #menu {
+        width: 70%;
+    }
+
+    #menu li {
+        margin: 15px 20px;
+    }
+
+    #about-heading {
+        margin-top: 7.5%;
+    }
+
+    #team-heading {
+        height: 150px;
+    }
+
+    .card {
+        width: 500px;
+        margin: 2.5% 5% 5%;
+    }
+
+    .card ul {
+        font-size: 115%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .price-card {
+        width: 400px;
+        height: 600px;
+        margin: 2% 3% 4%;
+    }
+
+    #team-heading {
+        height: 250px;
+    }
+
+    .team-sec h3 {
+        top: 5%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+    }
+
+    .team-sec ul {
+        left: 5%;
+        top: 65%;
+    }
+
+    .team-pic {
+        width: 225px;
+        height: 300px;
+        left: 90%;
+        -webkit-transform: translateX(-90%);
+            -ms-transform: translateX(-90%);
+                transform: translateX(-90%);
+        top: 27.5%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #logo {
+        font-size: 800%;
+    }
+
+    .team-sec {
+        width: 575px;
+        height: 750px;
+    }
+
+    .team-sec h3 {
+        top: 2.5%;
+    }
+
+    .team-pic {
+        width: 250px;
+        height: 325px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        top: 15%;
+    }
+
+    .team-sec ul {
+        left: 15%;
+        top: 82.5%;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    h2 {
+        font-size: 420%;
+    }
+    
+    header {
+        height: 600px;
+    }
+    
+    #logo {
+        font-size: 700%;
+    }
+
+    #menu {
+        width: 90%;
+    }
+
+    #team-start {
+        margin: 5% 7.5% 5%;
+    }
+    
+    #team-end {
+        margin: 5% 7.5% 2%;
+    }
+    
+    #memb-heading h4 {
+        font-size: 133%;
+        top: 60%;
+        width: 70%;
+    }
+
+    #info-heading {
+        margin-top: 10%;
+    }
+
+    #find-us {
+        width: 600px;
+        height: 1000px;
+    }
+
+    #form-card {
+        width: 600px;
+        height: 1000px;
+    }
+
+    .info-sec h3 {
+        font-size: 350%;
+    }
+
+    .map-container {
+        width: 90%;
+    }
+
+    p {
+        font-size: 90%;
+        text-align: center;
+    }
+
+    #find-contact {
+        top: 70%;
+    }
+
+    .contact-p {
+        top: 74%;
+    }
+
+    #contact-p2 {
+        top: 76.5%;
+    }
+
+    #contact-p3 {
+        top: 79%;
+    }
+
+    #find-coach {
+        top: 82.5%;
+    }
+
+    #coach-p1 {
+        top: 86.5%;
+    }
+
+    #coach-p2 {
+        top: 89%;
+    }
+
+    h6 {
+        font-size: 120%;
+    }
+
+    .info-form {
+        font-size: 110%;
+    }
+
+    #complete-p1 {
+        font-size: 110%;
+        width: 70%;
+    }
+
+    .form-button2 {
+        top: 27.5%;
+    }
+
+    #below-foot p {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    #logo {
+        font-size: 650%;
+    }
+
+    #menu {
+        width: 90%;
+        font-size: 160%;
+    }
+
+    #menu li {
+        margin: 15px 15px;
+    }
+
+    h2 {
+        font-size: 350%;
+    }
+
+    h3 {
+        font-size: 275%;
+    }
+
+    #about-heading {
+        margin-top: 10%;
+    }
+
+    #team-heading {
+        margin-top: 10%;
+    }
+
+    .team-sec ul {
+        left: 15%;
+    }
+
+    #find-us {
+        width: 575px;
+        height: 900px;
+    }
+
+    #form-card {
+        width: 575px;
+        height: 900px;
+    }
+
+    .info-sec h3 {
+        font-size: 300%;
+    }
+
+    #find-contact {
+        top: 75%;
+    }
+
+    .contact-p {
+        top: 79%;
+    }
+
+    #contact-p2 {
+        top: 81.5%;
+    }
+
+    #contact-p3 {
+        top: 84%;
+    }
+
+    #find-coach {
+        top: 87.5%;
+    }
+
+    #coach-p1 {
+        top: 91.5%;
+    }
+
+    #coach-p2 {
+        top: 94%;
+    }
+
+    #form-card h6 {
+        font-size: 130%;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    #logo {
+        font-size: 600%;
+    }
+
+    h2 {
+        font-size: 300%;
+    }
+
+    #about-heading {
+        height: 150px;
+    }
+
+    .card {
+        width: 425px;
+    }
+
+    h3 {
+        font-size: 233%;
+    }
+
+    .card ul {
+        font-size: 95%;
+        margin-top: 25px;
+    }
+
+    #team-heading {
+        height: 200px;
+    }
+
+    .team-sec h3 {
+        top: 2%;
+    }
+
+    .team-pic {
+        width: 233px;
+        height: 300px;
+        top: 12.5%;
+    }
+
+    .team-sec ul {
+        left: 15%;
+        font-size: 92.5%;
+        top: 77.5%;
+    }
+
+    #memb-heading {
+        height: 200px;
+    }
+
+    #memb-heading h4 {
+        font-size: 110%;
+    }
+
+    .price-card {
+        width: 350px;
+        height: 525px;
+    }
+
+    #info-heading {
+        height: 10vh;
+    }
+
+    #find-us {
+        width: 475px;
+        height: 800px;
+    }
+
+    #form-card {
+        width: 475px;
+        height: 800px;
+    }
+
+    .info-sec h3 {
+        font-size: 233%;
+    }
+
+    p {
+        font-size: 85%;
+        text-align: center;
+    }
+
+    .map-container {
+        height: 350px;
+        top: 24%;
+    }
+
+    h5 {
+        font-size: 150%;
+    }
+
+    #address-1 {
+        width: 100%;
+    }
+
+    #address-2 {
+        top: 18%;
+    }
+
+    #find-contact {
+        top: 70%;
+    }
+
+    .contact-p {
+        top: 75%;
+    }
+
+    #contact-p2 {
+        top: 78%;
+    }
+
+    #contact-p3 {
+        top: 81%;
+    }
+
+    #find-coach {
+        top: 86%;
+    }
+
+    #coach-p1 {
+        top: 91%;
+    }
+
+    #coach-p2 {
+        top: 94%;
+    }
+
+    #form-card h6 {
+        font-size: 120%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-form {
+        font-size: 90%;
+    }
+
+    #foot-head {
+        font-size: 350%;
+    }
+
+    #motto {
+        font-size: 115%;
+    }
+
+    #complete-p1 {
+        top: 16%;
+        font-size: 90%;
+    }
+
+    footer p {
+        font-size: 110%;
+    }
+
+    #footp1 {
+        top: 40%;
+    }
+
+    #footp2 {
+        top: 48.5%;
+    }
+
+    .social-links {
+        top: 62.5%;
+    }
+
+    .social-links a {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    header {
+        height: 500px;
+    }
+    
+    #logo {
+        font-size: 550%;
+        -webkit-text-decoration: underline 2px solid #c81212;
+                text-decoration: underline 2px solid #c81212;
     }
 
     #menu {
