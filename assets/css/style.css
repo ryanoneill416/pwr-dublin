@@ -453,8 +453,9 @@ header {
     top: 22.5%;
     left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 80%;
     height: 450px;
+    box-shadow: 3px 3px 10px 2px rgb(0 0 0 / 33%);
 }
 
 .responsive-map {
@@ -470,50 +471,50 @@ header {
 #find-contact {
     position: absolute;
     top: 67.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 .contact-p {
     position: absolute;
     top: 71.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 } 
 
 #contact-p2 {
     position: absolute;
     top: 74%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 #contact-p3 {
     position: absolute;
     top: 76.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 #find-coach {
     position: absolute;
     top: 80%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 #coach-p1 {
     position: absolute;
     top: 85%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 #coach-p2 {
     position: absolute;
     top: 87.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 /* Form section styling  */
@@ -671,8 +672,8 @@ footer p {
     text-decoration: underline 2.5px solid #0e0b0b;
     text-underline-offset: 10px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
 
 #footp1 {
@@ -907,13 +908,12 @@ footer p {
         font-size: 350%;
     }
 
-    p {
-        font-size: 90%;
-        text-align: center;
+    .map-container {
+        width: 90%;
     }
 
-    #contact-p3 {
-        width: 75%;
+    p {
+        font-size: 90%;
         text-align: center;
     }
 
@@ -1329,11 +1329,60 @@ footer p {
     }
 
     #memb-heading h4 {
-        width: 80%;
+        width: 90%;
     }
 
     .price-card {
         width: 300px;
         height: 475px;
+    }
+
+    .info-form {
+        position: absolute;
+        top: 2%;
+    }
+
+    .map-container {
+        height: 275px;
+    }
+
+    #find-contact {
+        top: 61.5%;
+    }
+
+    .contact-p {
+        top: 65.5%;
+    }
+
+    #contact-p2 {
+        top: 68.5%;
+    }
+
+    #contact-p3 {
+        top: 71.5%;
+    }
+
+    #find-coach {
+        top: 76.5%;
+    }
+
+    #coach-p1 {
+        top: 81.5%;
+    }
+
+    #coach-p2 {
+        top: 84.5%;
+    }
+
+    #foot-head {
+        font-size: 325%;
+    }
+
+    #complete-p1 {
+        width: 80%;
+    }
+
+    .form-button2 {
+        top: 30%;
     }
 }
