@@ -1378,6 +1378,10 @@ footer p {
         top: 84.5%;
     }
 
+    #form-card h6 {
+        font-size: 100%;
+    }
+
     #foot-head {
         font-size: 325%;
     }
