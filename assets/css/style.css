@@ -1278,7 +1278,7 @@ footer p {
 
 @media screen and (max-width: 450px) {
     header {
-        height: 420px;
+        height: 350px;
     }
 
     #logo {
@@ -1338,7 +1338,7 @@ footer p {
 
     .price-card {
         width: 300px;
-        height: 475px;
+        height: 500px;
     }
 
     .info-form {
@@ -1418,7 +1418,6 @@ footer p {
     }
 
     #form-card h6 {
-        font-size: 90%;
         top: 8.5%;
     }
 
@@ -1428,5 +1427,74 @@ footer p {
 
     .info-sec {
         margin: 2.5% 2.5% 10%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #logo {
+        font-size: 475%;
+        top: 33%;
+    }
+
+    #menu {
+        font-size: 110%;
+    }
+
+    #menu li {
+        margin: 12.5px 5px;
+    }
+
+    .card ul {
+        font-size: 70%;
+    }
+
+    h2 {
+        font-size: 250%;
+    }
+
+    .team-sec ul {
+        font-size: 80%;
+    }
+    
+    #memb-heading h4 {
+        font-size: 92.5%;
+    }
+
+    .price-card {
+        width: 265px;
+    }
+
+    #info-heading {
+        margin-top: 15%;
+    }
+    .price-card h3 {
+        font-size: 225%;
+        text-decoration: underline 1.5px solid #c81212;
+        text-underline-offset: 5px;
+    }
+
+    #find-coach {
+        top: 79.5%;
+    }
+
+    #coach-p1 {
+        top: 84.5%;
+    }
+
+    #coach-p2 {
+        top: 87.5%;
+    }
+
+    .info-form {
+        top: 5%;
+    }
+
+    #complete-p1 {
+        width: 90%;
+        font-size: 75%;
+    }
+
+    .form-button2 {
+        top: 27.5%;
     }
 }
