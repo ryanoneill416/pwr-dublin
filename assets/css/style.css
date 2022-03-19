@@ -335,7 +335,7 @@ header {
     letter-spacing: 2px;
     text-decoration: underline 2px solid #c81212;
     text-underline-offset: 10px;
-    background-color: rgba(0, 0, 0, .55);
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .price-card h4 {
@@ -354,6 +354,7 @@ header {
     transform: translateX(-50%);
     font-size: 70%;
     color: whitesmoke;
+    width: 70%;
 }
 
 #memb-day {
@@ -480,7 +481,7 @@ header {
     top: 71.5%;
     width: 100%;
     text-align: center;
-} 
+}
 
 #contact-p2 {
     position: absolute;
@@ -733,7 +734,7 @@ footer p {
     }
 }
 
-@media screen and (max-width: 1400px) {    
+@media screen and (max-width: 1400px) {
     .card {
         width: 350px;
         height: 750px;
@@ -863,11 +864,11 @@ footer p {
     h2 {
         font-size: 420%;
     }
-    
+
     header {
         height: 600px;
     }
-    
+
     #logo {
         font-size: 700%;
     }
@@ -879,11 +880,11 @@ footer p {
     #team-start {
         margin: 5% 7.5% 5%;
     }
-    
+
     #team-end {
         margin: 5% 7.5% 2%;
     }
-    
+
     #memb-heading h4 {
         font-size: 133%;
         top: 60%;
@@ -1080,6 +1081,8 @@ footer p {
 
     .team-sec h3 {
         top: 2%;
+        width: 100%;
+        text-align: center;
     }
 
     .team-pic {
@@ -1223,10 +1226,11 @@ footer p {
     header {
         height: 500px;
     }
-    
+
     #logo {
         font-size: 550%;
         text-decoration: underline 2px solid #c81212;
+        text-underline-offset: 10px;
     }
 
     #menu {
@@ -1257,7 +1261,7 @@ footer p {
     #find-us {
         width: 425px;
     }
-    
+
     #form-card {
         width: 425px;
     }
@@ -1278,7 +1282,7 @@ footer p {
     }
 
     #logo {
-        top: 30%;
+        top: 33%;
         font-size: 500%;
     }
 
@@ -1295,11 +1299,11 @@ footer p {
     }
 
     #team-start {
-        margin: 5% 2.5% 5%;
+        margin: 5% 4% 5%;
     }
 
     #team-end {
-        margin: 5% 2.5% 5%;
+        margin: 5% 4% 5%;
     }
 
     .team-sec {
@@ -1313,7 +1317,7 @@ footer p {
     .team-pic {
         top: 11%;
     }
-    
+
     .team-sec ul {
         top: 75%;
         left: 10%;
@@ -1384,5 +1388,45 @@ footer p {
 
     .form-button2 {
         top: 30%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #menu {
+        width: 100%;
+        font-size: 112.5%;
+    }
+    
+    #menu li {
+        margin: 12.5px 7.5px;
+    }
+
+    .card ul {
+        font-size: 75%;
+    }
+
+    .team-sec li {
+        font-size: 85%;
+    }
+
+    #memb-heading h4 {
+        font-size: 100%;
+    }
+
+    .price-card {
+        width: 275px;
+    }
+
+    #form-card h6 {
+        font-size: 90%;
+        top: 8.5%;
+    }
+
+    .info-form {
+        font-size: 80%;
+    }
+
+    .info-sec {
+        margin: 2.5% 2.5% 10%;
     }
 }
