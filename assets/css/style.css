@@ -85,7 +85,7 @@ textarea {
 
 header {
     height: 1000px;
-    background: url(../images/pexels-cottonbro-4753898-min.jpg) center center no-repeat;
+    background: url(../images/pexels-cottonbro-4753898-min.webp) center center no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -198,7 +198,7 @@ header {
 }
 
 .pow {
-    background-image: url(../images/pexels-grzegorz-5209197-min-min.jpg);
+    background-image: url(../images/pexels-grzegorz-5209197-min-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -206,7 +206,7 @@ header {
 }
 
 .build {
-    background-image: url(../images/pexels-ivan-remonte-4218662-min.jpg);
+    background-image: url(../images/pexels-ivan-remonte-4218662-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -214,7 +214,7 @@ header {
 }
 
 .mma {
-    background-image: url(../images/pexels-alexa-popovich-9302141-min.jpg);
+    background-image: url(../images/pexels-alexa-popovich-9302141-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -358,7 +358,7 @@ header {
 }
 
 #memb-day {
-    background-image: url(../images/brett-jordan-U2q73PfHFpM-unsplash-min.jpg);
+    background-image: url(../images/brett-jordan-U2q73PfHFpM-unsplash-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -366,7 +366,7 @@ header {
 }
 
 #memb-week {
-    background-image: url(../images/pexels-cottonbro-4761790-min.jpg);
+    background-image: url(../images/pexels-cottonbro-4761790-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -374,7 +374,7 @@ header {
 }
 
 #memb-month {
-    background-image: url(../images/pexels-leon-ardho-9602276\(1\)-min.jpg);
+    background-image: url(../images/pexels-leon-ardho-9602276\(1\)-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -382,7 +382,7 @@ header {
 }
 
 #memb-year {
-    background-image: url(../images/edgar-chaparro-sHfo3WOgGTU-unsplash\(1\).jpg);
+    background-image: url(../images/edgar-chaparro-sHfo3WOgGTU-unsplash\(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -523,7 +523,7 @@ header {
 #form-card {
     width: 750px;
     height: 1050px;
-    background-image: url(../images/pexels-cottonbro-4761616-min.jpg);
+    background-image: url(../images/pexels-cottonbro-4761616-min.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
