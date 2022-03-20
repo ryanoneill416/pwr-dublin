@@ -10,6 +10,7 @@ body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
     color: whitesmoke;
+    overflow-x: hidden;
 }
 
 /* Generic style rules to avoid repetition */
@@ -718,7 +719,6 @@ footer p {
 /* Media queries */
 
 /* For screen sizes from 1600px wide and down  */
-
 @media screen and (max-width: 1600px) {
     .card {
         width: 425px;
@@ -726,6 +726,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 1560px wide and down  */
 @media screen and (max-width: 1560px) {
     .price-card {
         width: 400px;
@@ -734,6 +735,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 1400px wide and down  */
 @media screen and (max-width: 1400px) {
     .card {
         width: 350px;
@@ -745,6 +747,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 1310px wide and down  */
 @media screen and (max-width: 1310px) {
     #menu {
         width: 60%;
@@ -755,12 +758,14 @@ footer p {
     }
 }
 
+/* For screen sizes from 1225px wide and down  */
 @media screen and (max-width: 1225px) {
     .team-sec li {
         font-size: 90%;
     }
 }
 
+/* For screen sizes from 1150px wide and down  */
 @media screen and (max-width: 1150px) {
     header {
         height: 750px;
@@ -800,6 +805,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 1050px wide and down  */
 @media screen and (max-width: 1050px) {
     .price-card {
         width: 400px;
@@ -831,6 +837,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 950px wide and down  */
 @media screen and (max-width: 950px) {
     #logo {
         font-size: 800%;
@@ -860,6 +867,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 850px wide and down  */
 @media screen and (max-width: 850px) {
     h2 {
         font-size: 420%;
@@ -968,6 +976,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 705px wide and down  */
 @media screen and (max-width: 705px) {
     #logo {
         font-size: 650%;
@@ -1049,6 +1058,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 645px wide and down  */
 @media screen and (max-width: 645px) {
     #logo {
         font-size: 600%;
@@ -1222,6 +1232,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 560px wide and down  */
 @media screen and (max-width: 560px) {
     header {
         height: 500px;
@@ -1276,6 +1287,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 450px wide and down  */
 @media screen and (max-width: 450px) {
     header {
         height: 350px;
@@ -1399,6 +1411,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 380px wide and down  */
 @media screen and (max-width: 380px) {
     #menu {
         width: 100%;
@@ -1438,6 +1451,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 325px wide and down  */
 @media screen and (max-width: 325px) {
     #logo {
         font-size: 475%;
@@ -1507,6 +1521,7 @@ footer p {
     }
 }
 
+/* For screen sizes from 300px wide and down  */
 @media screen and (max-width: 300px) {
     #logo {
         font-size: 400%;
