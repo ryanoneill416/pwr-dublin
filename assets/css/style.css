@@ -1341,6 +1341,10 @@ footer p {
         height: 500px;
     }
 
+    .price-card h4 {
+        font-size: 750%;
+    }
+
     .info-form {
         position: absolute;
         top: 2%;
@@ -1355,15 +1359,15 @@ footer p {
     }
 
     .contact-p {
-        top: 65.5%;
+        top: 66.5%;
     }
 
     #contact-p2 {
-        top: 68.5%;
+        top: 69.5%;
     }
 
     #contact-p3 {
-        top: 71.5%;
+        top: 72.5%;
     }
 
     #find-coach {
@@ -1501,4 +1505,59 @@ footer p {
     .form-button2 {
         top: 27.5%;
     }
+}
+
+@media screen and (max-width: 300px) {
+    #logo {
+        font-size: 400%;
+    }
+
+    #menu {
+        font-size: 100%;
+    }
+
+    .card ul {
+        font-size: 65%;
+    }
+
+    .team-pic {
+        width: 220px;
+    }
+
+    .team-sec ul {
+        font-size: 70%;
+    }
+
+    #memb-heading h4 {
+        top: 52.5%;
+    }
+
+    .price-card {
+        width: 250px;
+        height: 450px;
+    }
+
+    .info-sec h3 {
+        font-size: 200%;
+    }
+
+    h5 {
+        font-size: 140%;
+    }
+
+    p {
+        font-size: 75%;
+    }
+
+    #form-card h6 {
+        font-size: 90%;
+    }
+
+    #motto {
+        font-size: 105%;
+    }
+
+    footer p {
+        font-size: 100%;
+    }    
 }
