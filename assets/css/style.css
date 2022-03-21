@@ -769,6 +769,8 @@ footer p {
 @media screen and (max-width: 1150px) {
     header {
         height: 750px;
+        background: url(../images/header2.webp) center center no-repeat;
+        background-size: cover;
     }
 
     #logo {
