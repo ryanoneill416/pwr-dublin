@@ -399,7 +399,7 @@ header {
 }
 
 .info-sec {
-    margin: 2.5% 1.5% 10%;
+    margin: 2.5% 1.5% 150px;
 }
 
 .info-sec h3 {
@@ -607,6 +607,7 @@ header {
     padding: 7.5px 30px;
     font-size: 150%;
     border-radius: 5px;
+    border: 1px solid whitesmoke;
 }
 
 .form-button:hover {
@@ -629,9 +630,35 @@ header {
     padding: 7.5px 30px;
     font-size: 150%;
     border-radius: 5px;
+    border: 1px solid whitesmoke;
 }
 
 .form-button2:hover {
+    background-color: whitesmoke;
+    color: #0e0b0b;
+}
+
+.to-top {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.top-button {
+    font-family: Teko;
+    color: whitesmoke;
+    background-color: #c81212;
+    padding: 7.5px 30px;
+    font-size: 200%;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0%;
+    border: 1px solid whitesmoke;
+}
+
+.top-button:hover {
     background-color: whitesmoke;
     color: #0e0b0b;
 }
@@ -915,6 +942,10 @@ footer p {
         height: 1000px;
     }
 
+    .info-sec {
+        margin: 2.5% 1.5% 100px;
+    }
+
     .info-sec h3 {
         font-size: 350%;
     }
@@ -971,6 +1002,10 @@ footer p {
 
     .form-button2 {
         top: 27.5%;
+    }
+
+    .to-top {
+        height: 175px;
     }
 
     #below-foot p {
@@ -1287,6 +1322,10 @@ footer p {
         font-size: 85%;
         width: 75%;
     }
+
+    .top-button {
+        font-size: 166%;
+    }
 }
 
 /* For screen sizes from 450px wide and down  */
@@ -1449,7 +1488,11 @@ footer p {
     }
 
     .info-sec {
-        margin: 2.5% 2.5% 10%;
+        margin: 2.5% 2.5% 75px;
+    }
+
+    .to-top {
+        height: 135px;
     }
 }
 
