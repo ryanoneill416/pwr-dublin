@@ -85,7 +85,7 @@ textarea {
 /* header styling */
 
 header {
-    height: 1000px;
+    height: 1100px;
     background: url(../images/pexels-cottonbro-4753898-min\ 2\ \(1\)\ \(1\)\ \(1\).webp) center center no-repeat;
     background-size: cover;
     position: relative;
@@ -746,9 +746,9 @@ footer p {
 /* Media queries */
 
 /* For screen sizes less than the height of the header */
-@media screen and ( max-height: 1000px ) {
+@media screen and ( max-height: 1100px ) {
     header {
-        height: 85vh;
+        height: 90vh;
     }
 }
 
