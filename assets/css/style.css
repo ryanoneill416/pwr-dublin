@@ -226,7 +226,7 @@ header {
     position: absolute;
     left: 70%;
     transform: translateX(-70%);
-    margin-top: 40px;
+    margin-top: 5%;
     text-align: left;
     font-size: 120%;
     line-height: 35px;
@@ -764,9 +764,21 @@ footer p {
 
 /* For screen sizes from 1400px wide and down  */
 @media screen and (max-width: 1400px) {
+    h2 {
+        margin-top: 6%;
+    }
+    
     .card {
         width: 350px;
         height: 750px;
+    }
+
+    #memb-heading h2 {
+        margin-top: 3%;
+    }
+
+    #memb-heading h4 {
+        top: 65%;
     }
 
     .about-list {
@@ -824,6 +836,10 @@ footer p {
         height: 150px;
     }
 
+    .team-sec ul {
+        width: 47%;
+    }
+
     .card {
         width: 500px;
         margin: 2.5% 5% 5%;
@@ -853,7 +869,7 @@ footer p {
     }
 
     .team-sec ul {
-        left: 5%;
+        left: 8%;
         top: 65%;
     }
 
@@ -862,7 +878,7 @@ footer p {
         height: 300px;
         left: 90%;
         transform: translateX(-90%);
-        top: 27.5%;
+        top: 26%;
     }
 }
 
@@ -1148,6 +1164,10 @@ footer p {
         height: 200px;
     }
 
+    #memb-heading h2 {
+        margin-top: 7.5%;
+    }
+
     #memb-heading h4 {
         font-size: 110%;
     }
@@ -1382,7 +1402,7 @@ footer p {
     }
 
     #memb-heading h2 {
-        margin-top: 40px;
+        margin-top: 60px;
     }
 
     #memb-heading h4 {
