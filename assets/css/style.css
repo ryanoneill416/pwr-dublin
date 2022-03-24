@@ -745,6 +745,13 @@ footer p {
 
 /* Media queries */
 
+/* For screen sizes less than the height of the header */
+@media screen and ( max-height: 1000px ) {
+    header {
+        height: 85vh;
+    }
+}
+
 /* For screen sizes from 1600px wide and down  */
 @media screen and (max-width: 1600px) {
     .card {
@@ -1178,7 +1185,7 @@ footer p {
     }
 
     #info-heading {
-        height: 10vh;
+        height: 150px;
     }
 
     #find-us {
