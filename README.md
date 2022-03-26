@@ -72,3 +72,47 @@ The website will present membership packages with a range of specifity.
 * I want my customers to be able to learn how to use my website intuitively and easily.
 * I would like to build and maintain relationship with potential and current customers.
 
+### As a new customer:
+* I would like to know what facilities/ equipment the gym has to offer for my training preferences. 
+* I wish to find information about the personal trainers and what services they have to offer.
+* I want to know what prices/ promotions are available if I'm a regular member or a student.
+* I want to know general gym contact and location information.
+
+### As a returning customer:
+
+* I need to enquire about personal training with a specific trainer
+* I would like to check opening times on specific days if I am unsure.
+* I want to send the website to my friend to show him why he/she can join too.
+* I would like to make an enquiry about miscellaneous things such as endorsements/ business/ recruitment etc. using the form
+
+## Structure of the website
+
+The website is designed to be an easy-to-use one page design with an intuitive layout providing the user with what is needed most in a progressive order.
+It is crucial that the website is as effective/ intuitive to use on desktop/ tablets and mobile without any exception.
+All parts are designed to achieve maximum user satisfaction: Such as hover effects on the navigation links and form buttons as well as a back to top button at the bottom for ease of navigation.
+
+## Wireframes
+
+I used balsamiq.cloud to create my wireframes for desktop/ tablet and mobile.
+
+![Wireframes](./assets/wireframes/wireframes.jpg/)
+
+## Surface
+
+### Colors
+Main colours used in a project:
+* background color: #ccddff
+* font color: #6217ee
+* link color: #ff6600
+* hoover color: #ff9000
+
+### Fonts 
+
+* As a main font I used Almarai, and as a backup font sans-serif
+
+### Images
+
+* I used images from [Unspalsh.com](www.unsplash.com) and there are credited in [credits](#credits) section.
+
+
+[Back to Table of contents](#table-of-contents)
