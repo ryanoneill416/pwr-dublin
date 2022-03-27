@@ -170,5 +170,23 @@ The website has below features:
 ## More Information Section
 
 * The more information section is divided into to parts: The 'Find Us' and 'Ask Us' cards.
-### Find Us Section:
-    *
+* 'Find Us' Section:
+    * Outlines the address at which the gym is found.
+    * Includes an iframe element from google maps to allow users to further understand how to reach the facility.
+    * Encloses all contact information that may be needed such as contact no., email addresses etc.
+    * Provides contact information for hte personal trainers if potential clients have queries to enquire about.
+* 'Ask Us' Section:
+    * This is a form aimed at answering the questions of users who have any additional queries after navigating the website. 
+    * The form requires a first name, last name, valid email addres, explanation and to opt in/ out of promotional emails and offers.
+    * Includes categories in a dropdown list to categorise data:
+        * Facilities
+        * Coaching Enquiry: Kevin
+        * Coaching Enquiry: Jack
+        * Business
+        * Other
+    * PLEASE NOTE: This form is a so-called 'dummy' form as it does not store data, this was done to showcase my knowledge of forms in HTML and CSS.
+    * When the form is submitted, an alternative version of the page is loaded and directed to the same section and with this, indicates to the user that their form has been submitted and they will be contacted soon.
+    * Functionality to go back and submit another query is included in the form of an 'Ask Again' button which reverts to the previous version.
+    * A background image is used here to make the form stand out also.
+
+
