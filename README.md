@@ -100,19 +100,75 @@ I used balsamiq.cloud to create my wireframes for desktop/ tablet and mobile.
 ## Surface
 
 ### Colors
-Main colours used in a project:
-* background color: #ccddff
-* font color: #6217ee
-* link color: #ff6600
-* hoover color: #ff9000
+Main colors used in a project:
+* Background: #0e0b0b.
+* Font: #0e0b0b and whitesmoke.
+* Headings: #c81212.
+* Paragraph/ List Elements: #0e0b0b.
 
 ### Fonts 
 
-* As a main font I used Almarai, and as a backup font sans-serif
+* Headings/ Logo: Teko w/ a backup of Sans-serif.
+* Paragraph/ List Elements: Poppins w/ a backup of Sans-serif.
 
 ### Images
 
-* I used images from [Unspalsh.com](www.unsplash.com) and there are credited in [credits](#credits) section.
+* I used images from both [pexels.com](www.pexels.com) and [unsplash.com](www.unsplash.com). The pictures are credited individually in the [credits](#credits) section.
 
 
 [Back to Table of contents](#table-of-contents)
+
+___
+# Features
+
+The website encompasses a one-page format. It is divided into four main sections that exist between th header and footer.
+The navigation menu is nested in the header before the foremost section of information.
+
+The website has below features:
+
+## Navigation bar
+
+* #### Navigation bar is visible at the bottom of the header's hero image and below the logo. It is responsive and converts to take up the full width of devices that lack sufficient screen-width.
+* Navigation scheme:
+
+    * The navigation menu lies below the screen's center as the user lands on the page itself.
+    * There are four navigation links and each consists of a hover animation with a vanishing underline in the color #c81212:
+        * About
+        * The Team
+        * Membership
+        * More Info
+
+## About Section
+
+* The about section outlines the most important information for a gym member, the facilites on offer.
+* It contains three cards listing the facilities categorised into the following:
+    * Powerlifting
+    * Bodybuilding
+    * MMA
+* This section is the first section as it is what is deemed most important to somebody who is considering joining the gym.
+
+## The Team Section
+
+* The team section showcases the two personal trainers available to help members to achieve their desired fitness goals.
+* Each employee is given their own heading in conjuction with a list of what they bring to the table in terms of coaching.
+* The aim of the list is to summarise the each trainer's qualifications and experience relevant to the coaching they provide.
+* This section is crucial to experienced gym-goers looking to advance or complete newbies who need a helping hand.
+* Friendly pictures are used of the employees to showcase the welcoming nature of the facility.
+
+## Membership Section
+
+* The membership section draws the user's attention with 4 loud and decorative pricing plans.
+* Simplicity at it's finest, each card clearly outlines the time period and price-point of that given option.
+* A pricing discount is included for students and is displayed under the section heading.
+* The pricing list is as follows:
+    * One Day: €10
+    * One Week: €20
+    * One Month: €35
+    * One Year: €400
+* Fine print is shown on the monthly membership price to inform users that such is a recurring monthly payment that is cancellable.
+
+## More Information Section
+
+* The more information section is divided into to parts: The 'Find Us' and 'Ask Us' cards.
+### Find Us Section:
+    *
