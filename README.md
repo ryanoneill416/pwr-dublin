@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development Milestone Project.
 
-![Responsiveness](./assets/screenshots/pwr-resp.png)
+![Responsiveness](./assets/screenshots/pwr-resp.jpg)
 
 Welcome to PWR DUBLIN! A website designed for a fictional training facility in Dublin 15, encompassing the needs of powerlifters, bodybuilders and fighters all in one place. 
 
@@ -94,7 +94,7 @@ All parts are designed to achieve maximum user satisfaction: Such as hover effec
 
 I used balsamiq.cloud to create my wireframes for desktop/ tablet and mobile.
 
-![Wireframes](./assets/wireframes/wireframes.jpg/)
+![Wireframes](./assets/wireframes/pwr-wireframes.jpg/)
 
 ## Surface
 
@@ -125,9 +125,15 @@ The navigation menu is nested in the header before the foremost section of infor
 
 The website has below features:
 
+## Header
+* The header is made up of a large monochrome hero image with the Gym's logo situated boldly in the center.
+* The navigation is nestled at the bottom of the hero image.
+
+![Header](./assets/screenshots/pwr-header.jpg)
+
 ## Navigation bar
 
-* #### Navigation bar is visible at the bottom of the header's hero image and below the logo. It is responsive and converts to take up the full width of devices that lack sufficient screen-width.
+* Navigation bar is visible at the bottom of the header's hero image and below the logo. It is responsive and converts to take up the full width of devices that lack sufficient screen-width.
 * Navigation scheme:
 
     * The navigation menu lies below the screen's center as the user lands on the page itself.
@@ -136,6 +142,8 @@ The website has below features:
         * The Team
         * Membership
         * More Info
+
+![Navigation](./assets/screenshots/pwr-nav.jpg)
 
 ## About Section
 
@@ -146,6 +154,8 @@ The website has below features:
     * MMA
 * This section is the first section as it is what is deemed most important to somebody who is considering joining the gym.
 
+![About Section](./assets/screenshots/pwr-about.jpg)
+
 ## The Team Section
 
 * The team section showcases the two personal trainers available to help members to achieve their desired fitness goals.
@@ -153,6 +163,8 @@ The website has below features:
 * The aim of the list is to summarise the each trainer's qualifications and experience relevant to the coaching they provide.
 * This section is crucial to experienced gym-goers looking to advance or complete newbies who need a helping hand.
 * Friendly pictures are used of the employees to showcase the welcoming nature of the facility.
+
+![The Team](./assets/screenshots/pwr-team.jpg)
 
 ## Membership Section
 
@@ -165,6 +177,8 @@ The website has below features:
     * One Month: €35
     * One Year: €400
 * Fine print is shown on the monthly membership price to inform users that such is a recurring monthly payment that is cancellable.
+
+![Membership Section](./assets/screenshots/pwr-membership.jpg)
 
 ## More Information Section
 
@@ -189,11 +203,15 @@ The website has below features:
     * A background image is used here to make the form stand out also.
 * A 'Back to Top" button lies at the bottom of the more information section to bring users back to the header and navigation links for the purpose of ease of navigation.
 
+![More Info Section](./assets/screenshots/pwr-moreinfo.jpg)
+
 ## Footer
 
 * Footer is consistent on all pages. It houses a central logo the same as the one in the header.
 * It contains three icons from [fontawesome.com](www.fontawesome.com) which are anchor elements that bring users to the corresponding gym page on the social media platform.
 * Each link opens up in a new tab.
+
+![About Section](./assets/screenshots/pwr-footer.jpg)
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -267,7 +285,7 @@ In the early stages of the project I was hvaing a problem giving the logo a visu
 
 I solved this issue by digging and learning about the text-underline-offset property.
 
-![Underline Bug](./assets/screenshots/underline-bug.jpg)
+![Underline Bug](./assets/screenshots/pwr-logo-bug.jpg)
 
 ## Font awesome icon compatibility:
 
@@ -287,7 +305,7 @@ Upon noticing that the page had an unnecessary horizontal scrollbar, I sought to
 
 To fix this I included the overflow-x style rule in the body tag as none of the elemnts on the website exceeded 100% of the screens width. 
 
-![Horizontal Scrollbar Bug](./assets/screenshots/scrollbar-bug.jpg)
+![Horizontal Scrollbar Bug](./assets/screenshots/pwr-scrollbar-bug.jpg)
 
 ## Landing page appearance on devices with uncommon screen dimensions:
 
