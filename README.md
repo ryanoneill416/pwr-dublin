@@ -281,7 +281,7 @@ I solved the issue by giving the elements fixed heights using pixels instead.
 
 ## Logo underline appearance:
 
-In the early stages of the project I was hvaing a problem giving the logo a visually appealing underline. The issue arised because of how the default underline property wasn't positioned below the text.
+In the early stages of the project I was having a problem giving the logo a visually appealing underline. The issue arised because of how the default underline property wasn't positioned below the text.
 
 I solved this issue by digging and learning about the text-underline-offset property.
 
