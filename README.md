@@ -313,7 +313,7 @@ While testing responsiveness on numerous devices I found the site's appearance o
 
 To fix this I added media queries to target the header appearance on such devices like the Nest Hub/ Nest Hub Max etc.
 
-![Header Responsivity Bug](./assets/screenshots/header-bug.jpg)
+![Header Responsivity Bug](./assets/screenshots/pwr-header-bug.jpg)
 
 ## Performance testing
 
@@ -339,9 +339,21 @@ See the lighthouse performance scores below:
 ___
 # Deployment
 
-The project was deployed on GitHub Pages. This is done in the settings tab of the repository, under the Pages heading. 
+The PWR DUBLIN website is deployed using GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system.
+I used push command in Gitpod to save changes into GitHub.
 
-I used Gitpod as a development environment where I commited periodic changes. I used push command in Gitpod to save changes to GitHub and Github Pages.
+To deploy the website I had to do the following:
+
+* Log in to GitHub and click on repository to deploy ([pp1-pwrdublin](https://ryanoneill416.github.io/pp1-pwrdublin/)).
+* Select the `Settings` tab and find GitHub Pages option at the bottom of the page.
+* From branch select `main` and then `/(root)` as the directory.
+* Click `Save` and the website was deployed after refreshing the page and giving github a few moments to process said request.
+>  Your site is published at https://ryanoneill416.github.io/pp1-pwrdublin/
+
+To run locally:
+* Log in to GitHub and click on repository to download ([pp1-pwrdublin](https://ryanoneill416.github.io/pp1-pwrdublin/)).
+* Select `Code` and click Download the ZIP file.
+* After this is downloaded, the file can be extracted and ran in your chosen local environment :)
 
 [Back to Table of contents](#table-of-contents)
 ___
