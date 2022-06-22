@@ -12,7 +12,7 @@ The site will be a hub for easily-accessible informative reading and critical in
 
 My goal is to achieve a professional-standard website using just HTML and CSS with room for further functionality in the future.
 
-## [View the deployed website here!](https://ryanoneill416.github.io/pp1-pwrdublin/)
+## [View the deployed website here!](https://ryanoneill416.github.io/pwr-dublin/)
 ---
 
 # Table of contents
